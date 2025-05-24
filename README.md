@@ -19,15 +19,18 @@ AFPE-iTransformer addresses two major challenges in time-series forecasting:
 
 It integrates:
 - ✅ Legendre Memory Units (LMU) for compact long-term history encoding
+  
   LMU uses orthogonal Legendre polynomials to compress historical input sequences into a fixed-size memory representation.
   This enables the model to preserve long-term temporal dependencies without suffering from gradient decay, making it ideal for capturing trends in power consumption over extended periods.
   ![image](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/Legendre.png)
 - ✅ Adaptive Top-$k$ Frequency Pruning for denoising
+  
   This module applies a learnable, per-channel pruning mechanism in the frequency domain.
   By retaining only the top-$k$ spectral components, it removes noise while preserving the most predictive patterns.
   This greatly enhances robustness under real-world signal perturbations (e.g., solar flares, subsystem instability).
   ![image](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/AFPE.png)
 - ✅ Inverted Transformer architecture for subsystem-level attention
+  
 We extend the iTransformer structure by (1) transposing the input to treat each channel (i.e., subsystem) as an attention token, enabling cross-subsystem dependency modeling;
 and (2) applying a learnable Softmax excitation within each channel to highlight key temporal features. This dual-level attention improves both accuracy and interpretability in spacecraft telemetry forecasting.
 
