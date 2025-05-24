@@ -6,6 +6,7 @@
 > ✍️ Authors: [Author List]  
 > 🏷️ Venue: [Conference or Journal, Year]  
 > 📎 [Link to Paper if available]
+![GitHub Logo]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/itrans.png))
 
 ---
 
@@ -33,12 +34,12 @@ It integrates:
 
 ---
 
-'''
+```
 @article{your2024apfe,
   title={APFE-iTransformer: Adaptive Frequency-Domain Pruning Enhanced iTransformer for Multivariate Time-Series Forecasting},
   author={Your Name and Collaborators},
   journal={...},
   year={2024}
 }
-'''
+```
 
