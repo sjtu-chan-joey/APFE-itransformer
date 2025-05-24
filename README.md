@@ -18,8 +18,10 @@ APFE-iTransformer addresses two major challenges in time-series forecasting:
 - Adapting to **channel-specific noise and spectral redundancy**
 
 It integrates:
-- ✅ Legendre Memory Units (LMU) for compact long-term history encoding  
-- ✅ Adaptive Top-$k$ Frequency Pruning for denoising  
+- ✅ Legendre Memory Units (LMU) for compact long-term history encoding
+  ![image](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/Legendre.png)
+- ✅ Adaptive Top-$k$ Frequency Pruning for denoising
+  ![image](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/AFPE.png)
 - ✅ Inverted Transformer architecture for subsystem-level attention
 
 ---
