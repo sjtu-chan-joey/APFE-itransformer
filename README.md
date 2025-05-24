@@ -6,7 +6,7 @@
 > ✍️ Authors: [Author List]  
 > 🏷️ Venue: [Conference or Journal, Year]  
 > 📎 [Link to Paper if available]
-![GitHub Logo]([https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/itrans.png))
+![image](https://github.com/sjtu-chan-joey/APFE-itransformer/blob/main/figs/itrans.png)
 
 ---
 
