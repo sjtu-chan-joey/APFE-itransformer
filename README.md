@@ -2,7 +2,7 @@
 
 **AFPE-iTransformer** (Adaptive Frequency Pruning Enhanced iTransformer) is a robust and efficient framework for multivariate time-series forecasting, tailored for noisy and complex environments such as spacecraft telemetry systems. This is the official implementation of our method proposed in:
 
-> 📄 **APFE-iTransformer: Adaptive Frequency-Domain Pruning Enhanced iTransformer for Multivariate Time-Series Forecasting**  
+> 📄 **AFPE-iTransformer: Adaptive Frequency-Domain Pruning Enhanced iTransformer for Multivariate Time-Series Forecasting**  
 > ✍️ Authors: [Joey Chan,Shiyuan Piao,Huan Wang,Zhen Chen,Fugee Tsung,Ershun Pan]  
 > 🏷️ Venue: [Paper for SMCA UR]  
 > 📎 [Link to Paper after AC]
