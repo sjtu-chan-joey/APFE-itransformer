@@ -125,7 +125,7 @@ class Model(nn.Module):
         self.label_len = configs.label_len
         self.pred_len = configs.pred_len
         self.multiscale = [1, 2, 4]
-        self.window_size = [256]
+        self.window_size = [16]
         self.affine_weight = nn.Parameter(torch.ones(1, 1, configs.enc_in))
         self.affine_bias = nn.Parameter(torch.zeros(1, 1, configs.enc_in))
         self.output_attention = configs.output_attention
